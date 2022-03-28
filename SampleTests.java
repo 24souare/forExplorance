@@ -1,6 +1,5 @@
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-
 import Pages.EmployeeInsightSolutionsPage;
 import Pages.Page;
 
@@ -47,7 +46,6 @@ public class SampleTests extends Page{
 	    .assertStudentInsightSolutionsPageIsOpened()
 	    .assertPageContainsCorrectTitle();		
 	}
-
 			
 	@AfterTest
     public void closeDriver() {
